@@ -287,3 +287,14 @@ code { color: var(--accent); font-size: .95em; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
 }
+.nav-profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #52e0b5;
+    margin-left: 12px;
+    vertical-align: middle;
+    display: block;
+}
+
